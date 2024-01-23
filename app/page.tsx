@@ -2,7 +2,7 @@ import { addGrudge } from '@/actions/createGrudge'
 
 export default function Home() {
 	return (
-		<main className='min-h-screen flex items-center justify-center'>
+		<main className='min-h-screen flex items-center justify-center bg-slate-600'>
 			<div className='w-full max-w-md bg-gray-700 rounded-xl shadow-md'>
 				<form action={addGrudge} className='space-y-4 p-4'>
 					<label
