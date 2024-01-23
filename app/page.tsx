@@ -1,4 +1,4 @@
-import { addGrudge } from "@/actions/createGrudge";
+import { addGrudge } from '@/actions/createGrudge'
 
 export default function Home() {
 	return (
