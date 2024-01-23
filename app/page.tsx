@@ -28,7 +28,7 @@ export default async function Home() {
 						Add Grudge
 					</button>
 				</form>
-				<div className='mt-4 p-4'>
+				<div className='mt-4 p-4 h-[30vh] overflow-y-scroll scrollbar-hide'>
 					{rows.map((grudge, index) => (
 						<div
 							key={index}
