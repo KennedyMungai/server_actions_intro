@@ -1,8 +1,8 @@
 export default function Home() {
 	return (
-		<main className='min-h-screen'>
+		<main className='min-h-screen flex items-center justify-center'>
 			<div className='w-full max-w-md bg-gray-700 rounded-xl shadow-md'>
-				<form action={addGrudge} className='space-y-4 p-4'>
+				<form action={'addGrudge'} className='space-y-4 p-4'>
 					<label
 						htmlFor='grudgeName'
 						className='block text-sm font-medium text-gray-300'
